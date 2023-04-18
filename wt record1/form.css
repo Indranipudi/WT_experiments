@@ -1,0 +1,40 @@
+h3
+{
+font-family:verdana;
+font-size:25pt;
+font-style:normal;
+color:lightblue;
+text-align:center;
+text-deovation:underline;
+}
+table
+{
+font-family:monospace;
+color:black;
+font-size:11pt;
+font-style:normal;
+font-weight:bold;
+text-align:left;
+background-color:#yeyb54;
+}
+ol
+{
+color:red;
+}
+ol ol
+{
+color:blue;
+}
+ol ol ul
+{
+color:green;
+}
+form{
+background-color:lavender;
+border-radius:1cm;
+max-width:400px auto;
+margin:50px;
+box-shadow:2px 5px 10px rgba(1,0.5,0.5,0.5);
+padding-left:100px;
+}
+

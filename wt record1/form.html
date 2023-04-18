@@ -1,0 +1,114 @@
+<html>
+<head>
+<style>
+body{
+        background: url("hepsi.jpeg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;    
+}
+</style>
+</head>
+<link rel="stylesheet" href="form.css">
+<title>STUDENT REGISTRATION FORM</title>
+</head>
+<body bgcolor="lavender">
+<h3 align="center">Student Registration Form</h3>
+<form method=post action="display.php" >
+<table align="center" cellpadding="10px" cellspacing="0">
+<tr>
+<td>First Name:</td>
+<td><input type="text" name="first_name" maxlength="5" placeholder="enter your first name"/>
+</td>
+</tr>
+<tr>
+<td>Last Name:</td>
+<td><input type="text" name="last_name" maxlength="10" placeholder="enter your last name"/>
+</td>
+</tr>
+<tr>
+<td>DOB:</td>
+<td><input type="DOB" name="date of birth">
+</td>
+</tr>
+<tr>
+<td>Email:</td>
+<td><input type="text" name="email" maxlength=30 required></td>
+</tr>
+<tr>
+<td>Contact Number:</td>
+<td><input type="text" name="number" maxlength="10"></td>
+</tr>
+<tr>
+<td>Gender:</td>
+<td><input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female">Female</td>
+</tr>
+<td>Address</td>
+<td><textarea name="Address"rows="4" columns="30">
+</textarea>
+</td>
+</tr>
+<td>City:</td>
+<td><inp[ut type="text" name="city" maxlength="30"/>
+</td>
+</tr>
+<tr>
+<td>Pincode:</td>
+<td><input type="text" name="pincode" maxlength="6"/>
+</td>
+</tr>
+<tr>
+<td>State:</td>
+<td><input type="text" name="state" maxlength="30"/>
+</td>
+</tr>
+<tr>
+<td>Country:</td>
+<td><input type="text" name="country"/>
+</td>
+</tr>
+<td>Qualification:<br/><br/><br/><br/></td>
+<td>
+<table>
+<tr>
+<td align="center"><b>SL.NO</b></td>
+<td align="center"><b>Examination</b></td>
+<td align="center"><b>Percentage</b></td>\
+<td align="center"><b>Year of passing</b></td>
+</tr>
+<tr>
+<td>1:</td>
+<td>class10</td>
+<td><input type="text" name="classx"/></td>
+<td><input type="text" name="passing"/></td>\
+</tr>
+<tr>
+<td>2:</td>
+<td>Class12 or UG</td>
+<td><input type="text" name="classXII"/></td>
+<td><input type="text" name="passing"/></td>
+</tr>
+</table>
+</tr>
+<tr>
+<td>Cousres:<br/></td>
+<td>
+<input type="radio" name="cse" value="cse">CSE
+<input type="radio" name="eee" value="eee">EEE
+<input type="radio" name="mech" value="mech">MECH
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="submit">
+<input type="reset" value="reset">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+
+
